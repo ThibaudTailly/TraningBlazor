@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using TrainingApiBlizzard.Data;
+using TrainingApiBlizzard.Service;
 
 namespace TrainingApiBlizzard
 {
@@ -14,6 +15,9 @@ namespace TrainingApiBlizzard
             builder.Services.AddRazorPages();
             builder.Services.AddServerSideBlazor();
             builder.Services.AddSingleton<WeatherForecastService>();
+            builder.Services.AddHttpClient();
+            builder.Services.AddScoped<AuthentificationService>();
+            builder.Services.AddScoped<DiabloService>();
 
             var app = builder.Build();
 
