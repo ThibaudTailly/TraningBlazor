@@ -10,7 +10,7 @@ namespace TrainingApiBlizzard.Pages
 
         public async Task GetAct()
         {
-             var test2 = await DiabloService.GetActAsync();
+            var test2 = await DiabloService.GetActAsync();
             var test = 0;
         }
 

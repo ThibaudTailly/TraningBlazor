@@ -1,6 +1,5 @@
-using Microsoft.AspNetCore.Components;
-using Microsoft.AspNetCore.Components.Web;
-using TrainingApiBlizzard.Data;
+using TrainingApiBlizzard.Model;
+using TrainingApiBlizzard.Model.Interface;
 using TrainingApiBlizzard.Service;
 
 namespace TrainingApiBlizzard
@@ -14,9 +13,14 @@ namespace TrainingApiBlizzard
             // Add services to the container.
             builder.Services.AddRazorPages();
             builder.Services.AddServerSideBlazor();
-            builder.Services.AddSingleton<WeatherForecastService>();
-            builder.Services.AddHttpClient();
-            builder.Services.AddScoped<AuthentificationService>();
+            builder.Services.AddHttpClient("DiabloClient", client =>
+            {
+                client.BaseAddress = new Uri(builder.Configuration.GetValue<string>("BlizzardSetting:UrlBaseDiablo"));
+            })
+            .AddHttpMessageHandler<AuthHandler>();
+            builder.Services.AddScoped<ITokenProvider, TokenProvider>();
+            builder.Services.AddScoped<AuthHandler>();
+
             builder.Services.AddScoped<DiabloService>();
 
             var app = builder.Build();

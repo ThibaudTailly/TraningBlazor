@@ -1,33 +1,32 @@
 ﻿using Microsoft.AspNetCore.SignalR;
+using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using TrainingApiBlizzard.Model;
+using TrainingApiBlizzard.Service.Interface;
 
 namespace TrainingApiBlizzard.Service
 {
-    public class DiabloService
+    public class DiabloService : IDiabloService
     {
         private readonly HttpClient _httpClient;
-        private AuthentificationService _authenticationService;
+        private readonly IOptions<BlizzardSetting> _configuration;
 
-        public DiabloService(HttpClient httpClient, AuthentificationService authenticationService)
+
+        public DiabloService(IHttpClientFactory httpClient, IOptions<BlizzardSetting> configuration)
         {
-            _httpClient = httpClient;
-            _authenticationService = authenticationService;
+            _httpClient = httpClient.CreateClient("DiabloClient");
+            _configuration = configuration;
         }
 
         public async Task<DiabloActs?> GetActAsync()
         {
-            string urlDiablo = "https://us.api.blizzard.com/d3/data/act?locale=en_US";
-            var Token  = await _authenticationService.GetAccessTokenAsync();
-            //Mets le token dans le header.
-            _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", Token);
+            string urlDiablo =  $"{_httpClient.BaseAddress} {_configuration.Value.GetActUrl}";
             var response =  await _httpClient.GetStringAsync(urlDiablo);
             DiabloActs? diabloActs = JsonConvert.DeserializeObject<DiabloActs>(response);
-            
-            return diabloActs;
 
+            return diabloActs;
         } 
     }
 }
