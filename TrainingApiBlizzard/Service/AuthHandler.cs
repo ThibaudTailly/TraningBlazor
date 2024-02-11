@@ -1,5 +1,5 @@
-﻿using System.Net.Http.Headers;
-using TrainingApiBlizzard.Model.Interface;
+﻿using DomaineLayer.Model;
+using System.Net.Http.Headers;
 
 namespace TrainingApiBlizzard.Service
 {

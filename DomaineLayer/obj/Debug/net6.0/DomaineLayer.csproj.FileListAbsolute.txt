@@ -1,0 +1,12 @@
+C:\Users\tailly\Documents\Blazor\BlazorApi\TrainingApiBlizzard\DomaineLayer\obj\Debug\net6.0\DomaineLayer.csproj.AssemblyReference.cache
+C:\Users\tailly\Documents\Blazor\BlazorApi\TrainingApiBlizzard\DomaineLayer\obj\Debug\net6.0\DomaineLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tailly\Documents\Blazor\BlazorApi\TrainingApiBlizzard\DomaineLayer\obj\Debug\net6.0\DomaineLayer.AssemblyInfoInputs.cache
+C:\Users\tailly\Documents\Blazor\BlazorApi\TrainingApiBlizzard\DomaineLayer\obj\Debug\net6.0\DomaineLayer.AssemblyInfo.cs
+C:\Users\tailly\Documents\Blazor\BlazorApi\TrainingApiBlizzard\DomaineLayer\obj\Debug\net6.0\DomaineLayer.csproj.CoreCompileInputs.cache
+C:\Users\tailly\Documents\Blazor\BlazorApi\TrainingApiBlizzard\DomaineLayer\bin\Debug\net6.0\DomaineLayer.deps.json
+C:\Users\tailly\Documents\Blazor\BlazorApi\TrainingApiBlizzard\DomaineLayer\bin\Debug\net6.0\DomaineLayer.dll
+C:\Users\tailly\Documents\Blazor\BlazorApi\TrainingApiBlizzard\DomaineLayer\bin\Debug\net6.0\DomaineLayer.pdb
+C:\Users\tailly\Documents\Blazor\BlazorApi\TrainingApiBlizzard\DomaineLayer\obj\Debug\net6.0\DomaineLayer.dll
+C:\Users\tailly\Documents\Blazor\BlazorApi\TrainingApiBlizzard\DomaineLayer\obj\Debug\net6.0\refint\DomaineLayer.dll
+C:\Users\tailly\Documents\Blazor\BlazorApi\TrainingApiBlizzard\DomaineLayer\obj\Debug\net6.0\DomaineLayer.pdb
+C:\Users\tailly\Documents\Blazor\BlazorApi\TrainingApiBlizzard\DomaineLayer\obj\Debug\net6.0\ref\DomaineLayer.dll

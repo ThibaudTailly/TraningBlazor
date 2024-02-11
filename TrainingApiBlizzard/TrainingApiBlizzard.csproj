@@ -7,7 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="9.0.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DomaineLayer\DomaineLayer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Model\Interface\" />
   </ItemGroup>
 
 </Project>

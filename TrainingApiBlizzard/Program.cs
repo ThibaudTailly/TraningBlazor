@@ -1,5 +1,6 @@
-using TrainingApiBlizzard.Model;
-using TrainingApiBlizzard.Model.Interface;
+using DataLayer.Service;
+using DataLayer.Service.Interface;
+using DomaineLayer.Model;
 using TrainingApiBlizzard.Service;
 
 namespace TrainingApiBlizzard
@@ -20,11 +21,12 @@ namespace TrainingApiBlizzard
             .AddHttpMessageHandler<AuthHandler>();
             builder.Services.AddScoped<ITokenProvider, TokenProvider>();
             builder.Services.AddScoped<AuthHandler>();
-
-            builder.Services.AddScoped<DiabloService>();
+            builder.Services.AddSingleton<IDataBaseService, DataBaseService>();
 
             var app = builder.Build();
+            var dataBaseService = app.Services.GetRequiredService<IDataBaseService>();
 
+            dataBaseService.seedData();
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {
