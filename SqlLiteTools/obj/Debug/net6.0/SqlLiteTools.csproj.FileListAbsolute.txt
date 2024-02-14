@@ -65,3 +65,7 @@ C:\Users\tailly\Documents\Blazor\BlazorApi\TrainingApiBlizzard\SqlLiteTools\obj\
 C:\Users\tailly\Documents\Blazor\BlazorApi\TrainingApiBlizzard\SqlLiteTools\bin\Debug\net6.0\Humanizer.dll
 C:\Users\tailly\Documents\Blazor\BlazorApi\TrainingApiBlizzard\SqlLiteTools\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\tailly\Documents\Blazor\BlazorApi\TrainingApiBlizzard\SqlLiteTools\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\tailly\Documents\Blazor\BlazorApi\TrainingApiBlizzard\SqlLiteTools\bin\Debug\net6.0\Microsoft.Extensions.Http.dll
+C:\Users\tailly\Documents\Blazor\BlazorApi\TrainingApiBlizzard\SqlLiteTools\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\tailly\Documents\Blazor\BlazorApi\TrainingApiBlizzard\SqlLiteTools\bin\Debug\net6.0\DataLayer.dll
+C:\Users\tailly\Documents\Blazor\BlazorApi\TrainingApiBlizzard\SqlLiteTools\bin\Debug\net6.0\DataLayer.pdb

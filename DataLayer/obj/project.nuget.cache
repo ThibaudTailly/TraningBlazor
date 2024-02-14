@@ -1,9 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "zoo39Dtd3ZXFWvhZZ8NOSqyBKJpLNvBaV0TyfnhHXJKzVfHYIYw0dAo7hPaotlf5z/gMCPr9mOrRklM4I8Sq1w==",
+  "dgSpecHash": "eWbPZtxqz1kAj29lReW+7Bq9qbkIh68ozzBS7dz03F7zwn13EmgTKs4R612i1SMMDCoqfBGWT0koDWz7fPiZzA==",
   "success": true,
   "projectFilePath": "C:\\Users\\tailly\\Documents\\Blazor\\BlazorApi\\TrainingApiBlizzard\\DataLayer\\DataLayer.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\tailly\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.15\\microsoft.entityframeworkcore.7.0.15.nupkg.sha512",
+    "C:\\Users\\tailly\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.15\\microsoft.entityframeworkcore.abstractions.7.0.15.nupkg.sha512",
+    "C:\\Users\\tailly\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.15\\microsoft.entityframeworkcore.analyzers.7.0.15.nupkg.sha512",
+    "C:\\Users\\tailly\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\tailly\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
     "C:\\Users\\tailly\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\tailly\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\tailly\\.nuget\\packages\\microsoft.extensions.http\\7.0.0\\microsoft.extensions.http.7.0.0.nupkg.sha512",

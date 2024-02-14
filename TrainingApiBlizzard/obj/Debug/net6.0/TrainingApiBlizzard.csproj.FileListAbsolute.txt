@@ -39,3 +39,11 @@ C:\Users\tailly\Documents\Blazor\BlazorApi\TrainingApiBlizzard\TrainingApiBlizza
 C:\Users\tailly\Documents\Blazor\BlazorApi\TrainingApiBlizzard\TrainingApiBlizzard\obj\Debug\net6.0\TrainingApiBlizzard.pdb
 C:\Users\tailly\Documents\Blazor\BlazorApi\TrainingApiBlizzard\TrainingApiBlizzard\obj\Debug\net6.0\TrainingApiBlizzard.genruntimeconfig.cache
 C:\Users\tailly\Documents\Blazor\BlazorApi\TrainingApiBlizzard\TrainingApiBlizzard\obj\Debug\net6.0\ref\TrainingApiBlizzard.dll
+C:\Users\tailly\Documents\Blazor\BlazorApi\TrainingApiBlizzard\TrainingApiBlizzard\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\tailly\Documents\Blazor\BlazorApi\TrainingApiBlizzard\TrainingApiBlizzard\bin\Debug\net6.0\Microsoft.Extensions.Http.dll
+C:\Users\tailly\Documents\Blazor\BlazorApi\TrainingApiBlizzard\TrainingApiBlizzard\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\tailly\Documents\Blazor\BlazorApi\TrainingApiBlizzard\TrainingApiBlizzard\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\tailly\Documents\Blazor\BlazorApi\TrainingApiBlizzard\TrainingApiBlizzard\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\tailly\Documents\Blazor\BlazorApi\TrainingApiBlizzard\TrainingApiBlizzard\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\tailly\Documents\Blazor\BlazorApi\TrainingApiBlizzard\TrainingApiBlizzard\bin\Debug\net6.0\DataLayer.dll
+C:\Users\tailly\Documents\Blazor\BlazorApi\TrainingApiBlizzard\TrainingApiBlizzard\bin\Debug\net6.0\DataLayer.pdb

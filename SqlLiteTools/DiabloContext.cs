@@ -12,7 +12,7 @@ public class DiabloContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlite("Data Source=diablo.db");
+        optionsBuilder.UseSqlite("Data Source=C:\\Users\\tailly\\Documents\\Blazor\\BlazorApi\\TrainingApiBlizzard\\SqlLiteTools\\diablo.db");
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "aW9FqQR/MdEJDXIJh6f0g+w7QpzTfdQdBadxRU6LZmN2kOoCVe/FlHy6dJFbVY7M5J5u67XXjrivbXQB1uXMfw==",
+  "dgSpecHash": "V40vDT9EBN83WILyUJR46gljXJyR5rlgNSKymXoWYLeNyzAufxJjPINM4ZfCgX4xKLT/ZUqjHtcGYgKRPw46IA==",
   "success": true,
   "projectFilePath": "C:\\Users\\tailly\\Documents\\Blazor\\BlazorApi\\TrainingApiBlizzard\\SqlLiteTools\\SqlLiteTools.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,7 @@
     "C:\\Users\\tailly\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\tailly\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\tailly\\.nuget\\packages\\microsoft.extensions.dependencymodel\\7.0.0\\microsoft.extensions.dependencymodel.7.0.0.nupkg.sha512",
+    "C:\\Users\\tailly\\.nuget\\packages\\microsoft.extensions.http\\7.0.0\\microsoft.extensions.http.7.0.0.nupkg.sha512",
     "C:\\Users\\tailly\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
     "C:\\Users\\tailly\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\tailly\\.nuget\\packages\\microsoft.extensions.options\\7.0.1\\microsoft.extensions.options.7.0.1.nupkg.sha512",
