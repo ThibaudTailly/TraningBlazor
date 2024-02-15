@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TrainingApiBlizzard")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+431fec1a39fbe7536601ee0de368b937105c70bc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a4cbf955d96f6c272e5b3ff7276a44d646c7e45")]
 [assembly: System.Reflection.AssemblyProductAttribute("TrainingApiBlizzard")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TrainingApiBlizzard")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
