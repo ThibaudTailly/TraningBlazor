@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tailly\\Documents\\Blazor\\BlazorApi\\TrainingApiBlizzard\\DataLayer\\DataLayer.csproj": {}
+    "C:\\Users\\JTELLIER\\source\\repos\\ThibaudBlazor\\TraningBlazor\\DataLayer\\DataLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tailly\\Documents\\Blazor\\BlazorApi\\TrainingApiBlizzard\\DataLayer\\DataLayer.csproj": {
+    "C:\\Users\\JTELLIER\\source\\repos\\ThibaudBlazor\\TraningBlazor\\DataLayer\\DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tailly\\Documents\\Blazor\\BlazorApi\\TrainingApiBlizzard\\DataLayer\\DataLayer.csproj",
+        "projectUniqueName": "C:\\Users\\JTELLIER\\source\\repos\\ThibaudBlazor\\TraningBlazor\\DataLayer\\DataLayer.csproj",
         "projectName": "DataLayer",
-        "projectPath": "C:\\Users\\tailly\\Documents\\Blazor\\BlazorApi\\TrainingApiBlizzard\\DataLayer\\DataLayer.csproj",
-        "packagesPath": "C:\\Users\\tailly\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tailly\\Documents\\Blazor\\BlazorApi\\TrainingApiBlizzard\\DataLayer\\obj\\",
+        "projectPath": "C:\\Users\\JTELLIER\\source\\repos\\ThibaudBlazor\\TraningBlazor\\DataLayer\\DataLayer.csproj",
+        "packagesPath": "C:\\Users\\JTELLIER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JTELLIER\\source\\repos\\ThibaudBlazor\\TraningBlazor\\DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tailly\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JTELLIER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,20 +39,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.Extensions.Http": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Microsoft.Extensions.Options": {
-              "target": "Package",
-              "version": "[7.0.1, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -69,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

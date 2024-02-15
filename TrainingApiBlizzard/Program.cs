@@ -1,6 +1,6 @@
-using DataLayer.Service;
-using DataLayer.Service.Interface;
 using DomaineLayer.Model;
+using DomaineLayer.Service;
+using DomaineLayer.Service.Interface;
 using TrainingApiBlizzard.Service;
 
 namespace TrainingApiBlizzard
@@ -11,7 +11,6 @@ namespace TrainingApiBlizzard
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
             builder.Services.AddRazorPages();
             builder.Services.AddServerSideBlazor();
             builder.Services.AddHttpClient("DiabloClient", client =>
@@ -27,11 +26,10 @@ namespace TrainingApiBlizzard
             var dataBaseService = app.Services.GetRequiredService<IDataBaseService>();
 
             dataBaseService.seedData();
-            // Configure the HTTP request pipeline.
+
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
 

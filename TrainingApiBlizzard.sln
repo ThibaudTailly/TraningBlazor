@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomaineLayer", "DomaineLaye
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlLiteTools", "SqlLiteTools\SqlLiteTools.csproj", "{378E202A-B0A0-4637-9C0D-ADD22502803D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqliteTool", "SqliteTool\SqliteTool.csproj", "{199B3A2D-245B-421F-83AF-0E3D0AF1C0A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{378E202A-B0A0-4637-9C0D-ADD22502803D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{378E202A-B0A0-4637-9C0D-ADD22502803D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{378E202A-B0A0-4637-9C0D-ADD22502803D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{199B3A2D-245B-421F-83AF-0E3D0AF1C0A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{199B3A2D-245B-421F-83AF-0E3D0AF1C0A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{199B3A2D-245B-421F-83AF-0E3D0AF1C0A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{199B3A2D-245B-421F-83AF-0E3D0AF1C0A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

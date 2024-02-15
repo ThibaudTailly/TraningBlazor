@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using SqlLiteTools.Models;
+using SqlLiteTool.Models;
 
 public class DiabloContext : DbContext
 {
@@ -9,11 +9,6 @@ public class DiabloContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlite("Data Source=diablo.db");
+        optionsBuilder.UseSqlite("Data Source=C:\\Users\\JTELLIER\\source\\repos\\ThibaudBlazor\\TraningBlazor\\SqliteTool\\diablo.db");
     }
-
-    //protected override void OnModelCreating(ModelBuilder modelBuilder)
-    //{
-    //    base.OnModelCreating(modelBuilder);
-    //}
 }

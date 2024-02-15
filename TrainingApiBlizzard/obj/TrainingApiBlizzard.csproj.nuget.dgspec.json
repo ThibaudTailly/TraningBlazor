@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tailly\\Documents\\Blazor\\BlazorApi\\TrainingApiBlizzard\\TrainingApiBlizzard\\TrainingApiBlizzard.csproj": {}
+    "C:\\Users\\JTELLIER\\source\\repos\\ThibaudBlazor\\TraningBlazor\\TrainingApiBlizzard\\TrainingApiBlizzard.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tailly\\Documents\\Blazor\\BlazorApi\\TrainingApiBlizzard\\DataLayer\\DataLayer.csproj": {
+    "C:\\Users\\JTELLIER\\source\\repos\\ThibaudBlazor\\TraningBlazor\\DataLayer\\DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tailly\\Documents\\Blazor\\BlazorApi\\TrainingApiBlizzard\\DataLayer\\DataLayer.csproj",
+        "projectUniqueName": "C:\\Users\\JTELLIER\\source\\repos\\ThibaudBlazor\\TraningBlazor\\DataLayer\\DataLayer.csproj",
         "projectName": "DataLayer",
-        "projectPath": "C:\\Users\\tailly\\Documents\\Blazor\\BlazorApi\\TrainingApiBlizzard\\DataLayer\\DataLayer.csproj",
-        "packagesPath": "C:\\Users\\tailly\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tailly\\Documents\\Blazor\\BlazorApi\\TrainingApiBlizzard\\DataLayer\\obj\\",
+        "projectPath": "C:\\Users\\JTELLIER\\source\\repos\\ThibaudBlazor\\TraningBlazor\\DataLayer\\DataLayer.csproj",
+        "packagesPath": "C:\\Users\\JTELLIER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JTELLIER\\source\\repos\\ThibaudBlazor\\TraningBlazor\\DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tailly\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JTELLIER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,16 +39,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.Extensions.Options": {
-              "target": "Package",
-              "version": "[7.0.1, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -65,21 +55,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\tailly\\Documents\\Blazor\\BlazorApi\\TrainingApiBlizzard\\DomaineLayer\\DomaineLayer.csproj": {
+    "C:\\Users\\JTELLIER\\source\\repos\\ThibaudBlazor\\TraningBlazor\\DomaineLayer\\DomaineLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tailly\\Documents\\Blazor\\BlazorApi\\TrainingApiBlizzard\\DomaineLayer\\DomaineLayer.csproj",
+        "projectUniqueName": "C:\\Users\\JTELLIER\\source\\repos\\ThibaudBlazor\\TraningBlazor\\DomaineLayer\\DomaineLayer.csproj",
         "projectName": "DomaineLayer",
-        "projectPath": "C:\\Users\\tailly\\Documents\\Blazor\\BlazorApi\\TrainingApiBlizzard\\DomaineLayer\\DomaineLayer.csproj",
-        "packagesPath": "C:\\Users\\tailly\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tailly\\Documents\\Blazor\\BlazorApi\\TrainingApiBlizzard\\DomaineLayer\\obj\\",
+        "projectPath": "C:\\Users\\JTELLIER\\source\\repos\\ThibaudBlazor\\TraningBlazor\\DomaineLayer\\DomaineLayer.csproj",
+        "packagesPath": "C:\\Users\\JTELLIER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JTELLIER\\source\\repos\\ThibaudBlazor\\TraningBlazor\\DomaineLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tailly\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JTELLIER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -93,8 +83,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\tailly\\Documents\\Blazor\\BlazorApi\\TrainingApiBlizzard\\DataLayer\\DataLayer.csproj": {
-                "projectPath": "C:\\Users\\tailly\\Documents\\Blazor\\BlazorApi\\TrainingApiBlizzard\\DataLayer\\DataLayer.csproj"
+              "C:\\Users\\JTELLIER\\source\\repos\\ThibaudBlazor\\TraningBlazor\\DataLayer\\DataLayer.csproj": {
+                "projectPath": "C:\\Users\\JTELLIER\\source\\repos\\ThibaudBlazor\\TraningBlazor\\DataLayer\\DataLayer.csproj"
               }
             }
           }
@@ -108,12 +98,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "AutoMapper": {
-              "target": "Package",
-              "version": "[13.0.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -130,21 +114,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\tailly\\Documents\\Blazor\\BlazorApi\\TrainingApiBlizzard\\TrainingApiBlizzard\\TrainingApiBlizzard.csproj": {
+    "C:\\Users\\JTELLIER\\source\\repos\\ThibaudBlazor\\TraningBlazor\\TrainingApiBlizzard\\TrainingApiBlizzard.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tailly\\Documents\\Blazor\\BlazorApi\\TrainingApiBlizzard\\TrainingApiBlizzard\\TrainingApiBlizzard.csproj",
+        "projectUniqueName": "C:\\Users\\JTELLIER\\source\\repos\\ThibaudBlazor\\TraningBlazor\\TrainingApiBlizzard\\TrainingApiBlizzard.csproj",
         "projectName": "TrainingApiBlizzard",
-        "projectPath": "C:\\Users\\tailly\\Documents\\Blazor\\BlazorApi\\TrainingApiBlizzard\\TrainingApiBlizzard\\TrainingApiBlizzard.csproj",
-        "packagesPath": "C:\\Users\\tailly\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tailly\\Documents\\Blazor\\BlazorApi\\TrainingApiBlizzard\\TrainingApiBlizzard\\obj\\",
+        "projectPath": "C:\\Users\\JTELLIER\\source\\repos\\ThibaudBlazor\\TraningBlazor\\TrainingApiBlizzard\\TrainingApiBlizzard.csproj",
+        "packagesPath": "C:\\Users\\JTELLIER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JTELLIER\\source\\repos\\ThibaudBlazor\\TraningBlazor\\TrainingApiBlizzard\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tailly\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JTELLIER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -152,15 +136,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\tailly\\Documents\\Blazor\\BlazorApi\\TrainingApiBlizzard\\DomaineLayer\\DomaineLayer.csproj": {
-                "projectPath": "C:\\Users\\tailly\\Documents\\Blazor\\BlazorApi\\TrainingApiBlizzard\\DomaineLayer\\DomaineLayer.csproj"
+              "C:\\Users\\JTELLIER\\source\\repos\\ThibaudBlazor\\TraningBlazor\\DomaineLayer\\DomaineLayer.csproj": {
+                "projectPath": "C:\\Users\\JTELLIER\\source\\repos\\ThibaudBlazor\\TraningBlazor\\DomaineLayer\\DomaineLayer.csproj"
               }
             }
           }
@@ -174,16 +157,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Autofac.Extensions.DependencyInjection": {
-              "target": "Package",
-              "version": "[9.0.0, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -203,7 +176,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

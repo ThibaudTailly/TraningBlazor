@@ -1,9 +1,4 @@
 ﻿using DomaineLayer.Service.Interface;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DomaineLayer.Service
 {
@@ -15,7 +10,7 @@ namespace DomaineLayer.Service
             _dataBaseService = dataBaseService;
         }
 
-        public void seedData() 
+        public void seedData()
         {
             _dataBaseService.seedData();
             // Appeler l'injection du service DatabaService mais coté Layer

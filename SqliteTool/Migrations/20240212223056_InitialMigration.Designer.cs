@@ -2,21 +2,24 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace SqlLiteTools.Migrations
+namespace SqliteTool.Migrations
 {
     [DbContext(typeof(DiabloContext))]
-    partial class DiabloContextModelSnapshot : ModelSnapshot
+    [Migration("20240212223056_InitialMigration")]
+    partial class InitialMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "7.0.15");
 
-            modelBuilder.Entity("DomaineLayer.Model.Act", b =>
+            modelBuilder.Entity("SqlLiteTool.Models.Act", b =>
                 {
                     b.Property<int>("id")
                         .ValueGeneratedOnAdd()
@@ -40,10 +43,10 @@ namespace SqlLiteTools.Migrations
 
                     b.HasIndex("DiabloActsid");
 
-                    b.ToTable("Act", (string)null);
+                    b.ToTable("Act");
                 });
 
-            modelBuilder.Entity("DomaineLayer.Model.DiabloActs", b =>
+            modelBuilder.Entity("SqlLiteTool.Models.DiabloActs", b =>
                 {
                     b.Property<int>("id")
                         .ValueGeneratedOnAdd()
@@ -54,7 +57,7 @@ namespace SqlLiteTools.Migrations
                     b.ToTable("DiabloActs");
                 });
 
-            modelBuilder.Entity("DomaineLayer.Model.Quest", b =>
+            modelBuilder.Entity("SqlLiteTool.Models.Quest", b =>
                 {
                     b.Property<int>("id")
                         .ValueGeneratedOnAdd()
@@ -78,26 +81,26 @@ namespace SqlLiteTools.Migrations
                     b.ToTable("Quest");
                 });
 
-            modelBuilder.Entity("DomaineLayer.Model.Act", b =>
+            modelBuilder.Entity("SqlLiteTool.Models.Act", b =>
                 {
-                    b.HasOne("DomaineLayer.Model.DiabloActs", null)
+                    b.HasOne("SqlLiteTool.Models.DiabloActs", null)
                         .WithMany("acts")
                         .HasForeignKey("DiabloActsid");
                 });
 
-            modelBuilder.Entity("DomaineLayer.Model.Quest", b =>
+            modelBuilder.Entity("SqlLiteTool.Models.Quest", b =>
                 {
-                    b.HasOne("DomaineLayer.Model.Act", null)
+                    b.HasOne("SqlLiteTool.Models.Act", null)
                         .WithMany("quests")
                         .HasForeignKey("Actid");
                 });
 
-            modelBuilder.Entity("DomaineLayer.Model.Act", b =>
+            modelBuilder.Entity("SqlLiteTool.Models.Act", b =>
                 {
                     b.Navigation("quests");
                 });
 
-            modelBuilder.Entity("DomaineLayer.Model.DiabloActs", b =>
+            modelBuilder.Entity("SqlLiteTool.Models.DiabloActs", b =>
                 {
                     b.Navigation("acts");
                 });
